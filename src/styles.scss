@@ -1,0 +1,16 @@
+$lightblue: #D7F7FE;
+$darkblue: #1A577F;
+$medblue: #1F729C;
+$salmon: #FF6067;
+$hellayellow: #F7EE1A;
+
+.card {
+    background: $salmon;
+    color: white;
+}
+
+.button {
+    background: $hellayellow;
+    color: $darkblue;
+    border: 2px solid $lightblue;
+}
