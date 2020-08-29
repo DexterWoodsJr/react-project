@@ -15,7 +15,10 @@ class App extends Component {
 
   render () {
     return (
-          <div className="col-4 flex-wrap">
+          <div className="product-wrapper">
+            <Product />
+            <Product />
+            <Product />
             <Product />
             <Product />
             <Product />

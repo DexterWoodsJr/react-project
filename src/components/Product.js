@@ -12,10 +12,10 @@ import {
 
 const Product = (props) => {
   return (
-    <div>
+    <div className="product">
         <Card>
             <CardImg
-            src="https://picsum.photos/200/?blur"
+            src="https://picsum.photos/50/?blur"
             alt="Card image cap"
             />
             <CardBody>
@@ -28,7 +28,7 @@ const Product = (props) => {
             <Button className="button">Add to Cart</Button>
             </CardBody>
         </Card>
-    </div>
+        </div>
   );
 };
 

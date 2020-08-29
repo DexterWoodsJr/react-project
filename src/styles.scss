@@ -14,3 +14,15 @@ $hellayellow: #F7EE1A;
     color: $darkblue;
     border: 2px solid $lightblue;
 }
+
+.product-wrapper {
+    width: 100%;
+    border: 1px red solid;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 20%;
+    margin: 10px 5px 3% 10px
+}
